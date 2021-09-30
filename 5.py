@@ -10,4 +10,4 @@ for i in range(5):
         print('Ладно, хай будет так')
         break
 else:
-    print('Ха-ха, лошара')
+    print('Ха-ха, проиграл')
