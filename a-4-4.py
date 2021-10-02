@@ -33,6 +33,7 @@ random_choice = random.randint(0, 2)
 a = game == "0"
 b = game == "1"
 c = game == "2"
+
 a1 = random_choice == 0
 b1 = random_choice == 1
 c1 = random_choice == 2
