@@ -11,3 +11,4 @@ for i in range(5):
         break
 else:
     print('Ха-ха, проиграл')
+#     play against computer to guess the number
