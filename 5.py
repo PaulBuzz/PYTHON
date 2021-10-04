@@ -1,5 +1,5 @@
 import random
-number = random.randint(1, 100)
+number = random.randint(1, 101)
 for i in range(5):
     a = int(input())
     if a < number:
