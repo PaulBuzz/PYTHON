@@ -7,3 +7,5 @@ while i < len(string):
     i = i + 1
 else:
     print('Точки нет')
+
+    
