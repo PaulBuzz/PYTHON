@@ -6,6 +6,4 @@ while i < len(string):
     print(string[i])
     i = i + 1
 else:
-    print('Точки нет')
-
-    
+    print('Точки нет.')
