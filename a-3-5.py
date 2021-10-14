@@ -72,5 +72,4 @@ elif (love_score >= 40) & (love_score <= 50):
     print(f"Your score is {love_score}, and you are fine together.")
 else:
     print(f"Your score is {love_score}, you don't belong to any group.")
-
 # solution from teacher
