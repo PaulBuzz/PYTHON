@@ -7,7 +7,7 @@ for i in range(5):
     elif a > number:
         print('Перебрал.')
     elif a == number:
-        print('Красава, победа!')
+        print('Молодца!')
         break
 else:
     print('Ха-ха, проиграл.')
