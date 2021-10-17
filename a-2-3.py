@@ -10,7 +10,6 @@ months = int((90 - age1) * 12)
 print(f"You have left {days} days, {weeks} weeks, {months} months to live.")
 #  мое самостоятельное решение
 
-
 # как было решено
 # print('''Let's check how many it's left for you.
 # What is your age?''')
