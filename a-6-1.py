@@ -1,25 +1,42 @@
 import random
+from logo import logo, stages
+import words
 
-word_list = ["ardvark", "baboon", "camel"]
+print(logo)
 
-chosen_word = random.choice(word_list)
-print(chosen_word)
+chosen_word = random.choice(words.word_list)
+print(f"The word to guess has {len(chosen_word)} letters.")
 
 chosen_ul = []
-for letter in chosen_word:
+word_length = len(chosen_word)
+for _ in range(word_length):
     chosen_ul += "_"
 print(chosen_ul)
 
-guess = input("print the letter: \n").lower()
+lives = 6
 
-for letter in chosen_word:
-    if letter == guess:
-        print("Right.")
-    else:
-        print("Wrong.")
+end_of_game = False
 
-# if guess in chosen_word:
-#     print("yes, there's such letter")
-# else:
-#     print("Error")
+while not end_of_game:
+    guess = input("print the letter: \n").lower()
 
+    if guess in chosen_ul:
+        print(f"You've already guessed the letter {guess}.")
+
+    for position in range(word_length):
+        letter = chosen_word[position]
+        if letter == guess:
+            chosen_ul[position] = letter
+    print(chosen_ul)
+
+    if guess not in chosen_word:
+        print(f"You've guessed {guess} and it's not in the word. You lose a life.")
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print("You lose.")
+
+    if "_" not in chosen_ul:
+        end_of_game = True
+        print("You win.")
+    print(stages[lives])
