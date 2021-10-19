@@ -9,7 +9,6 @@ if rand_int == 0:
 else:
     print("It's Heads!")
 
-
 colors = ["red", "green", "yellow", "blue", "orange", "white"]
 
 colors[0] = "radt"
