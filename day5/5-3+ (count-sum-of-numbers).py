@@ -3,7 +3,7 @@
 #     if number % 2 == 0:
 #         total += number
 # print(total)
-# solution using if
+# my solution using if
 
 total = 0
 for number in range(2, 101, 2):
