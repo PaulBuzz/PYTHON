@@ -1,6 +1,5 @@
 print("Let's check if the number is prime or not.")
 
-
 def prime_checker(number):
     is_prime = True
     for i in range(2, 100):
