@@ -9,5 +9,4 @@ for i in range(5):
     elif a == number:
         print('Молодца!')
         break
-else:
-    print('Ха-ха, проиграл.')
+
