@@ -21,5 +21,6 @@ if height > 120:
     if photo == "Y":
         bill += 3
     print(f"Your final bill is {bill}$")
+
 else:
     print("You can't ride.")
