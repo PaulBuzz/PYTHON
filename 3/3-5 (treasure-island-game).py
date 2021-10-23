@@ -20,7 +20,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to Treasure Island.")
+print("W E L C O M E  T O  T H E  T R E A S U R E  I S L A N D")
 print("Your mission is to find the treasure.")
 ch1 = input(
     "You are at the edge of doom, deciding where to go. Is it Left or Right? ").lower()
