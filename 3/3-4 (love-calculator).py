@@ -42,7 +42,6 @@ name2 = input("Enter your crush name.\n")
 #
 # fully my solution
 
-
 combined_string = name1 + name2
 lower_case_string = combined_string.lower()
 
@@ -72,4 +71,4 @@ elif (love_score >= 40) & (love_score <= 50):
     print(f"Your score is {love_score}, and you are fine together.")
 else:
     print(f"Your score is {love_score}, you don't belong to any group.")
-# solution from teacher
+# alternative solution
