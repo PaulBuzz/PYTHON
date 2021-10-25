@@ -9,5 +9,4 @@ horiz = int(position[0])
 vert = int(position[1])
 
 map[vert - 1][horiz - 1] = ":)"
-
 print(f"{row1}\n{row2}\n{row3}")
