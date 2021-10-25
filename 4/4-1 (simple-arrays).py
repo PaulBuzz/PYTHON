@@ -10,7 +10,6 @@ else:
     print("It's Heads!")
 
 colors = ["red", "green", "yellow", "blue", "orange", "white"]
-
 colors[0] = "radt"
 # меняет значение слова в списке, счет, как и везде, с нуля
 colors.append("pink")
