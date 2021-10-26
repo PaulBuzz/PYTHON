@@ -12,7 +12,6 @@ for n in range(0, len(stud_heights)):
 total_height = 0
 for height in stud_heights:
     total_height += height
-
 total_amount = 0
 for amount in stud_heights:
     total_amount += 1
