@@ -8,7 +8,7 @@
 #     if txt == '':
 #         txt = num
 #     print(txt)
-# perfect solution
+# best solution
 
 for num in range(1, 101):
     if num % 3 == 0:
