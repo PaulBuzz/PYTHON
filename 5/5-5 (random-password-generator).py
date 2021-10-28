@@ -35,6 +35,7 @@ for num in range(1, nr_numbers + 1):
 random.shuffle(pswd_list)
 
 password = ""
+
 for char in pswd_list:
     password += char
 print(f"Your new HARD password is: {password}")
