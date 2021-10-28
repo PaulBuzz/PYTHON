@@ -1,7 +1,6 @@
 stud_score = input("Enter the list of scores: ").split(", ")
 for n in range(0, len(stud_score)):
     stud_score[n] = int(stud_score[n])
-
 max_score = 0
 for score in stud_score:
     if score > max_score:
