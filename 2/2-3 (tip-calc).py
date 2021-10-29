@@ -13,5 +13,4 @@ bill_per_person = bill / people
 bill_with_tip = (bill_per_person / 100) * tip
 total = bill_per_person + bill_with_tip
 print(f"Each person should pay: $ {total:.2f}")
-
 # :.2f = 2 знака после точки в f-String
