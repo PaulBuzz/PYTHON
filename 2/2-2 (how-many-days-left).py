@@ -16,7 +16,6 @@ print(f"You have left {days} days, {weeks} weeks, {months} months to live.")
 # age = input("Enter your age: ")
 
 # years = 90 - int(age)
-
 # days = round(years * 365)
 # weeks = round(years * 52)
 # months = round(years * 12)
