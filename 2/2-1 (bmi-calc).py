@@ -6,6 +6,7 @@ w1 = int(weight)
 res = w1 / (h1 ** 2)
 res_as_int = int(res)
 print(res_as_int)
+
 if res < 18.5:
     print("You are underweight")
 elif res >= 18.5 and res < 25:
