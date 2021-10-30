@@ -14,7 +14,6 @@ for _ in range(word_length):
 print(chosen_ul)
 
 lives = 6
-
 end_of_game = False
 
 while not end_of_game:
