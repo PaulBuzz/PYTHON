@@ -198,7 +198,6 @@ word_list = [
 'wizard',
 'woozy',
 'wristwatch',
-'wyvern',
 'xylophone',
 'yachtsman',
 'yippee',
